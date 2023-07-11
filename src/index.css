@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #bc2041;
+  --secondary: #564c55;
+  --tertiary: #65483d;
+  --fourth: #9e8279;
+  --fifth: #fdbf6e;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins";
+  background: var(--secondary);
+}
+* {
+  color: #fff;
+  margin: 0;
+  border: 1px dashed blue;
+}
+
+p, h1, h2{
+  margin: 10px 0;
+}
+
+button {
+  border: 0;
+  padding: 8px;
+  border-radius: 4px;
+  color: white;
+  background: var(--primary);
+  cursor: pointer;
+}
+
+/* navbar */
+.help-layout nav a.active {
+  border: #fdbf6e 2px solid;
+}
+
+.active {
+  color: #fdbf6e;
+}
+
+/* page content */
+
+/* help layout */
+
+/* faq */
+
+/* careers list */
+
+/* careers details */
+
+/* breadcrumbs */
