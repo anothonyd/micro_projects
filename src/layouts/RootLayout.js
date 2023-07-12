@@ -4,8 +4,8 @@ const RootLayout = () => {
     return (
         <>
             <Header />
-            <main className="relative flex justify-center top-16 p-5 z-10">
-                <div className="w-screen md:w-3/4"><Outlet /></div>
+            <main className="w-full flex justify-center p-5 z-10">
+                <div className="w-screen lg:w-3/4"><Outlet /></div>
             </main>
         </>
     )

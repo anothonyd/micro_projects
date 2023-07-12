@@ -20,10 +20,11 @@ body {
 * {
   color: #fff;
   margin: 0;
-  border: 1px dashed blue;
 }
 
-p, h1, h2{
+p,
+h1,
+h2 {
   margin: 10px 0;
 }
 
@@ -56,3 +57,15 @@ button {
 /* careers details */
 
 /* breadcrumbs */
+
+/* labels + inputs */
+
+label {
+  @apply absolute left-0 text-black text-xs transition-all peer-placeholder-shown:text-sm peer-placeholder-shown:text-black peer-placeholder-shown:top-[18px] peer-focus:-top-0 peer-focus:text-black peer-focus:text-xs px-3;
+}
+
+input {
+  @apply h-14 rounded w-full text-black text-sm placeholder-transparent focus:outline-none px-3;
+}
+
+
